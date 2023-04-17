@@ -6,7 +6,7 @@
     --primary-text: #4d5ae5;
     --primary-second-text: #2e2f42;
     --primary-third-text: #f4f4fd;
-    --primary-four-text: #ffffff;
+
 }
 
 h1,
@@ -134,6 +134,7 @@ body   {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-second-text);
+    display: block;
 }
 
 .menu-link:not(:last-child) { 
@@ -191,8 +192,23 @@ body   {
 }
 /* Main Contant */ /* Hero */
 
-.hero{
+.hero {
+    max-width: 1440px;
+}
+
+.hero-bg{
+    background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url("../images/people-office.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    margin: 0 auto ;
     padding: 188px  0;
+    max-width: 188px 0;
+    background-color:  #2E2F42;
+    
 }
 
 .hero__conteiner{
@@ -202,7 +218,7 @@ body   {
 }   
 
 
-.hero,
+
 .footer {
     background: #2E2F42;
 }
@@ -249,6 +265,7 @@ body   {
     padding: 120px 0 120px;
 }
 
+
 .second__container {
     max-width: 1158px;
     /* padding: 120px 0; */
@@ -259,6 +276,14 @@ body   {
     justify-content:space-between;
     gap:24px;
 
+}
+
+.advantage {
+        display: flex;
+        justify-content: center;
+        height:112px;
+        padding: 24px;
+        background: #F4F4FD;
 }
 
 .sect-second__item {
@@ -285,6 +310,7 @@ body   {
     color: #434455;
 
 }
+
 
         /* Sektion 3  What are we doing*/
 .secrion__three {
@@ -346,11 +372,14 @@ body   {
     width:calc((100% - 3 * 24px)/3);
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
     
 }
 .section_four__item {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+    
 }
 
 .name-working   {
@@ -371,16 +400,77 @@ body   {
     margin-bottom: 32px;
     text-align: center;
    
-
 }
+
+.social-list__four {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 24px;
+    max-width: 208px;
+/* padding-top: 96px; */ 
+/* align-items: flex-start;  */
+}
+
+.social-link__four {
+    width: 40px;
+    height: 40px;
+    background: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+            /* Section 5 Customers */
+.container-customers{
+    padding: 120px 0;
+    
+    
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    /* justify-content:space-between; */
+    flex-direction: row;
+    /* padding: 0px; */
+    gap:24px;
+    max-width:1128px;
+    
+}   
+            
+.customers-link {
+    width: 104px;
+    height: 56px;
+    color:#8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 15px 32px;
+}
+
+.social-icon{
+    fill:currentColor;
+}
+.customers-link:hover,
+.customers-link:focus {
+    color:#404BBF;
+}
+
+
+
 
     /* FOOTER */
 
 .footer {
     padding: 100px 0;
 }    
-.container-footer{
-    
+.container__footer{
+    display: flex;
 
 }
 .logo-footer {
@@ -424,7 +514,44 @@ body   {
     max-width: 264px;
 }
 
+.social_container{
+    margin-left: 120px;
 
+}    
+.footer-sub{
+    color: var(--primary-third-text);
+    margin-bottom: 16px;     
+}
+.social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    /* padding-top: 96px; */
+    max-width: 208px; 
+    /* margin-left: 120px; */
+   
+}
+.social-link_footer {
+    width: 25px;
+    height: 25px;
+    background: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.social-link_footer:hover,
+.social-link_footer:focus  {
+    background: #31D0AA; 
+
+}
+
+     
 
 
 
@@ -456,7 +583,7 @@ body   {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     letter-spacing: 0.04em;
-    padding:12px 24px 12px;
+    padding:11px 23px 11px;
 }
 .ifp__btn {
     letter-spacing: 0.04em;
@@ -486,6 +613,11 @@ body   {
 .item-works {
     width: calc((100% - 48px) / 3);
    flex-shrink:0;
+ 
+}
+
+.item-works:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .link__container {
