@@ -389,7 +389,7 @@ body   {
     
 }
 .section_four__item {
-    padding: 32px 16px;
+    padding: 32px 0;
     border-radius: 0px 0px 4px 4px;
     
 }
@@ -417,11 +417,10 @@ body   {
 .social-list__four {
     display: flex;
     justify-content: center;
-    /* flex-direction: row; */
     padding: 0px;
-    gap: 24px;
-    max-width: 208px;
-
+    gap:24px;
+    /* max-width: 208px; */
+    
 }
 
 
@@ -434,7 +433,12 @@ body   {
     display: flex;
     align-items: center;
     justify-content: center;
+}    
+
+.social-icon {
+        fill:currentColor;
 }
+    
 .social-link__four:hover,
 .social-link__four:focus {
     background-color: #404bbf;
@@ -445,8 +449,7 @@ body   {
             /* Section 5 Customers */
 
 .customers-section { 
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px;
 }
 
 .container-customers{
@@ -494,7 +497,7 @@ body   {
 }
 .customers-link:hover,
 .customers-link:focus {
-    /* color:#404BBF; */
+    color:#404BBF;
     border-color: #404bbf;
 }
 
@@ -554,9 +557,10 @@ body   {
 
 .logo__container {
     margin-right: 120px;
+    align-items: baseline;
 }
 .social_container{
-    /* margin-left: 120px; */
+   margin-right: 120px
 
 }    
 .footer-sub{
@@ -592,6 +596,13 @@ body   {
 .social-link_footer:focus  {
     background: #31D0AA; 
 
+}
+.social-icon {
+    fill: currentColor;
+}
+.social-icon:hover,
+.social-icon:focus {
+    color: #f4f4fd;
 }
 
      
