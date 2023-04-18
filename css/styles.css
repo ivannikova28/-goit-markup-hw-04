@@ -6,6 +6,7 @@
     --primary-text: #4d5ae5;
     --primary-second-text: #2e2f42;
     --primary-third-text: #f4f4fd;
+    --primary-four-text: #FFFFFF;
 
 }
 
@@ -415,12 +416,15 @@ body   {
 
 .social-list__four {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    /* flex-direction: row; */
     padding: 0px;
     gap: 24px;
     max-width: 208px;
 
 }
+
+
 
 .social-link__four {
     width: 40px;
@@ -433,19 +437,27 @@ body   {
 }
 .social-link__four:hover,
 .social-link__four:focus {
-    background-color: #404bbf;  
+    background-color: #404bbf;
 
 }
 
 
             /* Section 5 Customers */
-.container-customers{
+
+.customers-section { 
     padding-top: 120px;
-    padding-bottom:120px;
+    padding-bottom: 120px;
+}
+
+.container-customers{
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
     
     
 }
-
+.customers-title { 
+    line-height: 1.1;
+}
 .customers-list {
     display: flex;
     /* justify-content: center; */
@@ -478,11 +490,12 @@ body   {
 
 .social-icon{
     fill:currentColor;
+    /* fill:var(--primary-third-text); */
 }
 .customers-link:hover,
 .customers-link:focus {
     /* color:#404BBF; */
-    border-color: #404bbf
+    border-color: #404bbf;
 }
 
 
@@ -495,6 +508,7 @@ body   {
 }    
 .container__footer{
     display: flex;
+    align-items: baseline;
 
 }
 .logo-footer {
@@ -538,12 +552,15 @@ body   {
     max-width: 264px;
 }
 
+.logo__container {
+    margin-right: 120px;
+}
 .social_container{
-    margin-left: 120px;
+    /* margin-left: 120px; */
 
 }    
 .footer-sub{
-    color: var(--primary-third-text);
+    color: var(--primary-four-text);
     margin-bottom: 16px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -553,7 +570,7 @@ body   {
     display: flex;
     flex-direction:row;
     justify-content: center;
-    align-items: baseline;
+    /* align-items: baseline; */
     padding: 0px;
     gap: 16px;
     max-width:208px; 
@@ -561,8 +578,8 @@ body   {
    
 }
 .social-link_footer {
-    width: 40px;
-    height: 40px;
+     width: 40px;
+    height: 40px; 
     background: #4D5AE5;
     border-radius: 50%;
     display: flex;
