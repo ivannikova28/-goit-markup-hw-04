@@ -439,6 +439,7 @@ body   {
         fill:currentColor;
 }
     
+
 .social-link__four:hover,
 .social-link__four:focus {
     background-color: #404bbf;
@@ -497,8 +498,9 @@ body   {
 }
 .customers-link:hover,
 .customers-link:focus {
-    color:#404BBF;
+
     border-color: #404bbf;
+    color: #404bbf;
 }
 
 
@@ -717,3 +719,10 @@ body   {
 
 
 /* =============PORTFOLIO============= */
+
+
+
+.icon-social {
+    fill: var(--primary-third-text);
+    
+}
