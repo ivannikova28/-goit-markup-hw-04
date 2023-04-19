@@ -499,11 +499,11 @@ body   {
 
 .social-icon{
     fill:currentColor;
+
     /* fill:var(--primary-third-text); */
 }
 .customers-link:hover,
 .customers-link:focus {
-
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -604,9 +604,8 @@ body   {
     background: #31D0AA; 
 
 }
-.social-icon {
-    /* fill: currentColor; */
-    fill:var(--primary-third-text)
+.social-icon__footer{
+    fill:currentColor;
 }
 .social-icon:hover,
 .social-icon:focus {
@@ -729,6 +728,6 @@ body   {
 
 
 .icon-social {
-    fill: var(--primary-third-text);
+    /* fill: var(--primary-third-text); */
     
 }
