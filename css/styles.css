@@ -435,9 +435,14 @@ body   {
     justify-content: center;
 }    
 
-.social-icon {
-        fill:currentColor;
+.icon-social{
+        fill:var(--primary-third-text);
 }
+
+/*  .social-icon:hover,
+ .social-icon:focus {
+     color: #f4f4fd;
+ }*/
     
 
 .social-link__four:hover,
@@ -600,7 +605,8 @@ body   {
 
 }
 .social-icon {
-    fill: currentColor;
+    /* fill: currentColor; */
+    fill:var(--primary-third-text)
 }
 .social-icon:hover,
 .social-icon:focus {
