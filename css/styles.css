@@ -606,7 +606,8 @@ body   {
 
 }
 .social-icon__footer{
-    fill:currentColor;
+    /* fill:currentColor; */
+    fill: var(--primary-third-text)
 }
 .social-icon__footer,
 .social-icon__footer{
