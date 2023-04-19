@@ -494,6 +494,7 @@ body   {
 /* .customers-link { */
     width: calc((100% - 120px) / 6);
     height: 88px;
+    color: #8E8F99;
 }
 
 
