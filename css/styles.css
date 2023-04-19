@@ -608,8 +608,8 @@ body   {
 .social-icon__footer{
     fill:currentColor;
 }
-.social-icon:hover,
-.social-icon:focus {
+.social-icon__footer,
+.social-icon__footer{
     color: #f4f4fd;
 }
 
