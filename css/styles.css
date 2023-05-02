@@ -7,6 +7,7 @@
     --primary-second-text: #2e2f42;
     --primary-third-text: #f4f4fd;
     --primary-four-text: #FFFFFF;
+    --primary-icon:#f4f4fd;
 
 }
 
@@ -436,7 +437,8 @@ body   {
 }    
 
 .icon-social{
-        fill:var(--primary-third-text);
+        /* fill:var(--primary-third-text); */
+        fill:var(--primary-icon)
 }
 
 /*  .social-icon:hover,
