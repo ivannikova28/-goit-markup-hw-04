@@ -410,7 +410,7 @@ body   {
     letter-spacing: 0.02em;
     font-weight: 400;
     color: #434455;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     text-align: center;
    
 }
@@ -563,6 +563,7 @@ body   {
     line-height: 1.5;
     color: #F4F4FD;
     max-width: 264px;
+    /* margin-right: 120px; */
 }
 
 .logo__container {
@@ -624,7 +625,7 @@ body   {
 /* =============PORTFOLIO============= */
 .works {
     padding: 96px 0 120px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .filter__list {
@@ -670,6 +671,9 @@ body   {
     border: 1px solid transparent;
 }
 
+.text-footer__portfolio {
+    margin-right: 120px;
+}
 .works-list {
     list-style: none;
     display: flex;
